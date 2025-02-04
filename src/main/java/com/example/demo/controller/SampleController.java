@@ -9,7 +9,7 @@ import java.util.List;
 @RestController
 public class SampleController {
 
-    List<String> list = List.of("item1", "item2");
+    List<String> list = List.of("item1", "item2", "item3");
 
     @GetMapping("/")
     public String home(){
